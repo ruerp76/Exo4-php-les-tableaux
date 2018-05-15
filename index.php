@@ -8,7 +8,7 @@
     <?php
     echo "<br />========> Exercice 1 et 2 <======== <br /><br />";
 
-    $mois = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novrmbre','décembre');
+    $mois = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
     echo $mois [2];
 
       echo "<br /><br />========> Exercice 3 <======== <br /><br />";
@@ -43,6 +43,25 @@
 
         echo "<br /><br />========> Exercice 7 <======== <br /><br />";
 
+        echo $departements["11"];
+
+        echo "<br /><br />========> Exercice 8 <======== <br /><br />";
+
+        foreach ($mois as $element) {
+              echo $element . '<br />';
+        }
+
+        echo "<br /><br />========> Exercice 9 <======== <br /><br />";
+
+        foreach ($departements as $key => $elements) {
+          echo $key . " " . $elements . '<br />';
+        }
+
+        echo "<br /><br />========> Exercice 10 <======== <br /><br />";
+
+        foreach ($departements as $key2 => $elements2) {
+         echo  "Le département " .$elements2 . " a le numéro" . $key2 . '<br />';
+       }
     ?>
   </body>
 </html>
