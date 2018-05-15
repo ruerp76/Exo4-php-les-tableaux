@@ -60,7 +60,7 @@
         echo "<br /><br />========> Exercice 10 <======== <br /><br />";
 
         foreach ($departements as $key2 => $elements2) {
-         echo  "Le département " .$elements2 . " a le numéro" . $key2 . '<br />';
+         echo  "Le département " .$elements2 . " a le numéro [$key2]" . '<br />';
        }
     ?>
   </body>
